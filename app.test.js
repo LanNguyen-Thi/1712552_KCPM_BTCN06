@@ -88,8 +88,8 @@ const p17 = new Diem(2, 2);
 const p18 = new Diem(0, 0);
 const tri6 = new TamGiac(p16, p17, p18);
 test('Kiểm tra phương thức phân loại với trường hợp 3 cạnh không tạo thành tam giác', () => {
-    expect(tri6.PhanLoaiTamGiac()).toStrictEqual({ code: 0, message: 'Đây không phải là tam giác' });
+    expect(tri6.PhanLoaiTamGiac()).toStrictEqual({ code: 0, message: "Đây không phải là tam giác" });
 });
 test('Kiểm tra phương thức tính chu vi với trường hợp 3 cạnh không tạo thành tam giác', () => {
-    expect(tri6.ChuVi()).toBe('Đây không phải là tam giác');
+    expect(tri6.ChuVi()).toBe("Đây không phải là tam giác");
 });
