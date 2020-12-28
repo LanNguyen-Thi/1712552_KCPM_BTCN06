@@ -1,0 +1,12 @@
+{
+  "name": "1712552",
+  "version": "1.0.0",
+  "description": "Bai tap ca nhan 06: Unit Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
